@@ -31,6 +31,26 @@
     opacity: 0.8;
   }
 </style>
+<style>
+  .button-container {
+    text-align: center; /* Center-aligns the buttons */
+    margin-top: 20px;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #5DA9A4; /* Teal color for the button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+  }
+  .button:hover {
+    background-color: #4B8C87; /* Darker teal on hover */
+  }
+</style>
 	<head>
 		<title>Prologue by HTML5 UP</title>
 		<meta charset="utf-8" />
@@ -194,11 +214,11 @@
 							<footer>
 								<a href="docs/CV_JLS.pdf" class="button scrolly" target="_blank">Publications</a>
 							</footer>
-							<footer>
-								<a href="docs/CV_JLS.pdf" class="button scrolly" target="_blank" align="left">NASA ADS</a>
-								<a href="docs/CV_JLS.pdf" class="button scrolly" target="_blank">Google Scholar</a>
-								<a href="docs/CV_JLS.pdf" class="button scrolly" target="_blank">Research Gate</a>
-							</footer>
+							<div class="button-container">
+ 								 <a href="docs/CV_JLS.pdf" class="button" target="_blank">NASA ADS</a>
+ 								 <a href="docs/CV_JLS.pdf" class="button" target="_blank">Google Scholar</a>
+  								 <a href="docs/CV_JLS.pdf" class="button" target="_blank">Research Gate</a>
+							</div>
 						</div>
 					</section>
 
