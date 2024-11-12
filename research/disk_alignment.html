@@ -1,1 +1,350 @@
-x
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<style>
+  .stats-container {
+    display: flex;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .stat-box {
+    flex: 1;
+    padding: 20px;
+    color: white;
+  }
+  .stat-box:nth-child(1) { background-color: #FF6B6B; } /* Soft Coral */
+  .stat-box:nth-child(2) { background-color: #FFD29D; } /* Warm Sand */
+  .stat-box:nth-child(3) { background-color: #FFC3A0; } /* Muted Peach */
+  .stat-box:nth-child(4) { background-color: #B2D8B2; } /* Light Sage */
+  .stat-box:nth-child(5) { background-color: #A3B9C9; } /* Pastel Slate */
+  .stat-number {
+    font-size: 2em;
+    margin: 0;
+  }
+  .stat-label {
+    font-size: 1em;
+    margin: 0;
+    opacity: 0.8;
+  }
+</style>
+<style>
+  .button-container {
+    text-align: center; /* Center-aligns the buttons */
+    margin-top: 20px;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #A3B9C9; /* Teal color for the button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+  }
+  .button:hover {
+    background-color: #4B8C87; /* Darker teal on hover */
+  }
+</style>
+	<head>
+		<title>Prologue by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Jeremy L. Smallwood</h1>
+							<p>Astrophysicist</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Research</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Publications</span></a></li>
+								<li><a href="#publications" id="publications-link"><span class="icon solid fa-user">Publications</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">	
+							<header>
+								<img src="images/image0.jpg"  alt="" style="float:right;width:375px;height:550px;">
+								<h2 class="alt">Welcome!</a></h2>
+								<p align="left">My name is Jeremy Smallwood. I'm currently the Dodge Family Prize Postdoctoral Fellow at the  <a href="https://www.ou.edu/cas/physics-astronomy">University of Oklahoma.</a> </p>
+								<br>
+								<p align="left"> I am a computational astrophysicist specializing in advanced simulations to explore planet formation and interpret astronomical observations. My research focuses on the dynamics of circumbinary disks around binary star systems, the interaction between gas and dust in highly misaligned circumbinary disk configurations, the impact of unbound perturbers (such as stellar flybys) on protoplanetary disks, and the N-body dynamics governing planetary systems.  </p>
+								
+							</header>
+
+							<footer>
+								<a href="docs/CV_JLS.pdf" class="button scrolly" target="_blank">Curriculum Vitae</a>
+							</footer>
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Research</h2>
+							</header>
+
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+							fusce hendrerit lacus ridiculus.</p>
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a class="image fit"><img src="images/disk_alignment.jpg"  alt=""></a>
+										<header>
+											<a href="#" class="button scrolly">Disk Alignment</a>
+											<h3>Misaligned circumbinary disks align to either coplanar or polar to the binary star orbital plane.</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/accretion.jpg" alt="" /></a>
+										<header>
+											<a href="#" class="button scrolly">Accretion Streams</a>
+											<h3>Material from a circumbinary disk flows inward, replenishing the smaller circumstellar disks.</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/frb.jpg" alt="" /></a>
+										<header>
+											<a href="#" class="button scrolly">Fast Radio Bursts</a>
+											<h3>The origin of fast radio bursts (FRBs) remains a mystery. One possible mechanism for producing FRBs is the accretion of asteroids onto the surface of a neutron star.</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/stellar_flyby.jpg" alt="" /></a>
+										<header>
+											<a href="#" class="button scrolly">Stellar Flyby</a>
+											<h3>Stars on unbound orbits can interact with protoplanetary disks, creating disk substructures that may help explain observations.</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/dust_rings.jpg" alt="" /></a>
+										<header>
+											<a href="#" class="button scrolly">Dusty Circumbinary Disks</a>
+											<h3>Polar-aligning circumbinary disks create dust "traffic jams," which may provide a favorable environment for the formation of polar circumbinary planets.</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/sec_res.jpg" alt="" /></a>
+										<header>
+											<a href="#" class="button scrolly">Planetary Secular Resonances</a>
+											<h3>Secular resonances between asteroids and giant planets can perturb asteroids, sending them into planet-crossing orbits that may play a crucial role in delivering key ingredients essential for planetary habitability.</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/syn_obs.jpg" alt="" /></a>
+										<header>
+											<a href="#" class="button scrolly">Synthetic Observations</a>
+											<h3>Dust rings in misaligned circumbinary disks are promising targets for ALMA, as well as upcoming observations from ngVLA and SKA.</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/circmtriple.jpg" alt="" /></a>
+										<header>
+											<a href="#" class="button scrolly">Circumtriple Planets</a>
+											<h3>The observed circumtriple disk structure around GW Ori may be explained by the presence of the first-ever detected circumtriple planet.</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/wd_pollution.jpg" alt="" /></a>
+										<header>
+											<a href="#" class="button scrolly">White Dwarf Pollution</a>
+											<h3>The atmospheres of white dwarf stars are continuously polluted by metals, likely sourced from asteroids perturbed by nearby planets.</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Publications</h2>
+							</header>
+
+							<div class="stats-container">
+  								<div class="stat-box">
+									<p class="stat-number">22</p>
+   									<p class="stat-label">Total Publications</p>
+  								</div>
+								<div class="stat-box">
+									<p class="stat-number">18</p>
+									<p class="stat-label">First-Authored</p>
+								</div>
+								<div class="stat-box">
+									<p class="stat-number">301</p>
+									<p class="stat-label">Citations</p>
+								</div>
+								<div class="stat-box">
+									<p class="stat-number">9</p>
+									<p class="stat-label">h-index</p>
+								</div>
+								<div class="stat-box">
+									<p class="stat-number">9</p>
+									<p class="stat-label">i10-index</p>
+								</div>
+							</div>
+							<div class="button-container">
+								<a href="docs/CV_JLS.pdf" class="button scrolly" target="_blank">Publications</a>
+							</div>
+							<br>
+							<br>
+							<div>
+								Find the most up-to-date list of publications here:
+							</div>
+							<div class="button-container">
+ 								<a href="https://ui.adsabs.harvard.edu/user/libraries/nSAE7wrlTou2kS0qYqOeKw" class="button">NASA ADS</a>
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+ 								<a href="https://scholar.google.com/scholar?scilib=1024&hl=en&as_sdt=0,37" class="button">Google Scholar</a>
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+  								<a href="https://www.researchgate.net/profile/Jeremy-Smallwood-3/research" class="button">Research Gate</a>
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+								&nbsp
+								<a href="https://orcid.org/0000-0002-4314-398X" class="button">ORCiD</a>
+							</div>
+						</div>
+					</section>
+
+				<!-- Publications -->
+					<section id="publications" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+							ornare iaculis.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Elementum sem parturient nulla quam placerat viverra
+							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
+							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
