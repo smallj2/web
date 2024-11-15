@@ -12,9 +12,11 @@
     text-align: center;
   }
   .stat-box {
-    flex: 1;
-    padding: 20px;
-    color: white;
+	  flex: 1;
+	  padding: 20px;
+	  color: white;
+	  min-width: 150px; /* Adjust as needed */
+	  padding: 20px;
   }
   .stat-box:nth-child(1) { background-color: #FF6B6B; } /* Soft Coral */
   .stat-box:nth-child(2) { background-color: #FFD29D; } /* Warm Sand */
@@ -30,6 +32,10 @@
     margin: 0;
     opacity: 0.8;
   }
+	  /* Media query for smaller screens */
+	@media (max-width: 600px) {
+            .container {
+                flex-direction: column;
 </style>
 <style>
   .button-container {
