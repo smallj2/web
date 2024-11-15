@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<style>
+  .stats-container {
+    	display: flex;
+    	font-family: Arial, sans-serif;
+    	text-align: center;
+	justify-content: space-around;
+	gap: 0px;
+	flex-wrap: wrap;
+  }
+  .stat-box {
+    flex: 1;
+    padding: 20px;
+    color: white;
+  }
+  .stat-box:nth-child(1) { background-color: #FF6B6B; } /* Soft Coral */
+  .stat-box:nth-child(2) { background-color: #FFD29D; } /* Warm Sand */
+  .stat-box:nth-child(3) { background-color: #FFC3A0; } /* Muted Peach */
+  .stat-box:nth-child(4) { background-color: #B2D8B2; } /* Light Sage */
+  .stat-box:nth-child(5) { background-color: #A3B9C9; } /* Pastel Slate */
+  .stat-number {
+    font-size: 2em;
+    margin: 0;
+  }
+  .stat-label {
+    font-size: 1em;
+    margin: 0;
+    opacity: 0.8;
+  }
+	/* Media query for smaller screens */
+	@media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+</style>
+<style>
+  .button-container {
+    text-align: center; /* Center-aligns the buttons */
+    margin-top: 20px;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #A3B9C9; /* Teal color for the button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+  }
+  .button:hover {
+    background-color: #4B8C87; /* Darker teal on hover */
+  }
+</style>
+<style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .responsive-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Optional: Add padding for smaller screens */
+        @media (max-width: 600px) {
+            .image-container {
+                padding: 10px;
+            }
+        }
+</style>
+	<head>
+		<title>Prologue by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Jeremy L. Smallwood</h1>
+							<p>Astrophysicist</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="https://smallj2.github.io/web/#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a href="https://smallj2.github.io/web/#research" id="research-link"><span class="icon solid fa-th">Research</span></a></li>
+								<li><a href="https://smallj2.github.io/web/#publications" id="publications-link"><span class="icon solid fa-book">Publications</span></a></li>
+								<li><a href="https://smallj2.github.io/web/#bio" id="bio-link"><span class="icon solid fa-user">Bio</span></a></li>
+								<li><a href="https://smallj2.github.io/web/#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>The Alignment of Circumbinary Disks Around Binary Star Systems</h2>
+							</header>
+
+							<p>Accretion disks around binary star systems (circumbinary disks) are ubiquitous in the galaxy, 
+								and planet formation is thought to transpire within these disks. 
+								Circumbinary disks are regularly observed to be misaligned with 
+								respect to the binary orbital plane <a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...883...22C/abstract"> Czekala et al. (2019).</a> 
+								A misaligned circumbinary disk will eventually evolve to a stable orientation, either co-planar or polar (i.e., 90 deg.) with the binary orbital plane. 
+								Below, I show the evolution of a mildly inclined circumbinary disk that orbits an eccentric orbit binary. 
+							</p>
+							<div class="image-container">
+								<iframe width="720" height="360" src="https://www.youtube.com/embed/PNMBawGqYyA" align="middle" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<p>
+								The eccentric binary induces large disk tilt oscillations 
+								that damp over time as the disk aligns to the binary orbital plane, shown in the bottom figure.
+							</p>
+				    			<div class="image-container">
+        							<img src="images/new_e0p8_i15.jpg" alt="" class="responsive-image">
+  							</div>
+							<p>
+
+								A more highly misaligned circumbinary disk will evolve to a polar configuration (shown below).
+							</p>
+							<div class="image-container">
+								<iframe width="720" height="360" src="https://www.youtube.com/embed/dvu0p1DealU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<p>
+								The alignment process of a cirucmbinary disk may affect how planets form around binary star systems. 
+							</p>
+						</div>
+
+
+					</section>
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
