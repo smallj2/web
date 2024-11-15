@@ -58,6 +58,26 @@
     background-color: #4B8C87; /* Darker teal on hover */
   }
 </style>
+<style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .responsive-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Optional: Add padding for smaller screens */
+        @media (max-width: 600px) {
+            .image-container {
+                padding: 10px;
+            }
+        }
+</style>
 	<head>
 		<title>Prologue by HTML5 UP</title>
 		<meta charset="utf-8" />
@@ -118,16 +138,16 @@
 								The eccentric binary induces large disk tilt oscillations 
 								that damp over time as the disk aligns to the binary orbital plane, shown by the figure.
 							</p>
-							<div class="stats-container">
-								<img src="images/new_e0p8_i15.jpg"  alt="" style="float:right;width:720px;height:360px;">
-							<\div>	
+				    			<div class="image-container">
+        							<img src="images/new_e0p8_i15.jpg" alt="Responsive Chart" class="responsive-image">
+  							</div>
 							<p>
 
 								A more highly misaligned circumbinary disk will evolve to a polar configuration (shown below).
 							</p>
 							<div class="stats-container">
 								<iframe width="720" height="360" src="https://www.youtube.com/embed/dvu0p1DealU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							<\div>
+							</div>
 						</div>
 
 
