@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<style>
+  .stats-container {
+    	display: flex;
+    	font-family: Arial, sans-serif;
+    	text-align: center;
+	justify-content: space-around;
+	gap: 0px;
+	flex-wrap: wrap;
+  }
+  .stat-box {
+    flex: 1;
+    padding: 20px;
+    color: white;
+  }
+  .stat-box:nth-child(1) { background-color: #FF6B6B; } /* Soft Coral */
+  .stat-box:nth-child(2) { background-color: #FFD29D; } /* Warm Sand */
+  .stat-box:nth-child(3) { background-color: #FFC3A0; } /* Muted Peach */
+  .stat-box:nth-child(4) { background-color: #B2D8B2; } /* Light Sage */
+  .stat-box:nth-child(5) { background-color: #A3B9C9; } /* Pastel Slate */
+  .stat-number {
+    font-size: 2em;
+    margin: 0;
+  }
+  .stat-label {
+    font-size: 1em;
+    margin: 0;
+    opacity: 0.8;
+  }
+	/* Media query for smaller screens */
+	@media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+</style>
+<style>
+  .button-container {
+    text-align: center; /* Center-aligns the buttons */
+    margin-top: 20px;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #A3B9C9; /* Teal color for the button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+  }
+  .button:hover {
+    background-color: #4B8C87; /* Darker teal on hover */
+  }
+</style>
+<style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .responsive-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Optional: Add padding for smaller screens */
+        @media (max-width: 600px) {
+            .image-container {
+                padding: 10px;
+            }
+        }
+</style>
+	<head>
+		<title>Synthetic Observations</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Jeremy L. Smallwood</h1>
+							<p>Astrophysicist</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="https://smallj2.github.io/web/#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a href="https://smallj2.github.io/web/#research" id="research-link"><span class="icon solid fa-th">Research</span></a></li>
+								<li><a href="https://smallj2.github.io/web/#publications" id="publications-link"><span class="icon solid fa-book">Publications</span></a></li>
+								<li><a href="https://smallj2.github.io/web/#bio" id="bio-link"><span class="icon solid fa-user">Bio</span></a></li>
+								<li><a href="https://smallj2.github.io/web/#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Synthetic Observations</h2>
+							</header>
+
+							<p align="left" > Misaligned circumbinary disks will produce dust traffic jams during alignment or anti-alignment to the binary orbital plane (<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.1068S/abstract"> Smallwood et al. 2024a </a>;<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.534.4018S/abstract"> Smallwood et al. 2024b </a>)
+								In <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241112614S/abstract"> Smallwood et al. (2024c) </a>, we conduct a hydrodynamical simulation of an initially misaligned circumbinary disk undergoing polar alignment with multiple dust species. Due to differential precession between the gas and dust components,
+								multiple dust traffic jams are produced within the disk during polar alignment (shown below). 
+						              </p>
+							<div class="image-container">
+        							<img src="images/syn_dust.jpg" alt="" class="responsive-image">
+  							</div>
+						
+							<p align="left" > 				
+								The radial locations of the dust traffic jams depend on the Stokes number of the grains, 
+								which depends on grain size. 
+							</p>
+							<div class="image-container">
+        							<img src="images/syn_dustrings.jpg" alt="" class="responsive-image">
+  							</div>
+						 	<p align="left" > We compute the dust temperature structure using post-processing radiative transfer to produce continuum images at cm-wavelengths. 
+								Multiple distinct rings emerge in the continuum images, corresponding to the dust traffic jams. 
+								
+							</p>
+							<div class="image-container">
+        							<img src="images/syn_observations.jpg" alt="" class="responsive-image">
+  							</div>				
+							<p align="left" > The angular resolution of upcoming observations from SKA and ngVLA will be sufficient to detect centimeter-sized grains in protoplanetary disks and resolve the widths of dust traffic jams.
+							</p>
+					     		<div class="image-container">
+        							<img src="images/syn_flux.jpg" alt="" class="responsive-image">
+  							</div>	
+							<p align="left"> High angular resolution observations of disks at mil- limeter wavelengths, typically on scales of a few as- tronomical units, have become routine. 
+								However, observations at centimeter wavelengths show a notable absence of comparable angular resolution. This discrepancy poses a signifi- cant obstacle to advancing our comprehension of planet formation 
+								and the process by which dust grains evolve from millimeter to centimeter sizes. Future telescope fa- cilities will help bridge the gap between millimeter and centimeter observations. To make observational 
+								predictions from our synthetic observations, we invoke the use of upcoming Square Kilometre Array (SKA) and next-generation Very Large Array (ngVLA) observations, 
+								which will be able to probe cm-sized dust grains.
+							</p>
+							<p align="left">  To further study the possible observability of these dust traffic jams, we employ a simple analytical approach detailed in <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.4930L/abstract"> Longarini et al. (2021) </a>. 
+								Although our hydrodynamical simulations modeled dust grains with  St > 15$, in our toy model we can assume that  St ~ 1 represents a lower limit for the formation of dust rings. 
+								The effect of dust radial drift is larger for when  St ~ 1$, given by $${\rm St} = \frac{\pi \rho_0 s}{2 \Sigma_{\rm g}} \simeq 1,$$ which can be rewritten in terms of the disk parameters:
+								 $$s(r) = \frac{2}{\pi} \frac{\Sigma_{\rm g}(r)}{\rho_0} = \frac{2}{\pi \rho_0} \frac{M_d (2-p)}{2\pi r^2_{\rm in}} \frac{1}{x^{2-p}_{\rm out} -1} \bigg( \frac{r}{r_{\rm in}}\bigg)^{-p}.$$ M<sub>d</sub> denotes the disk mass and x<sub>out</sub> = r<sub>out</sub>/r<sub>in</sub>. 
+								
+								We can calculate the size of St ~ 1 dust particles at any radius $r$, depending on the disk parameters. The top row of the below figure shows the  size of St ~ 1 dust particles evaluated for different values of the density parameter
+								p, with M<sub>d</sub> = 0.01 (top row), and for different values of the disk mass M<sub>d</sub>, with p = 1 (bottom row). The yellow, green, and red shaded regions represents the observational window of ALMA, ngVLA, and SKA, respectively. 
+								We highlight the region in the disc where we expect to observe the dust traffic jams (black shaded region) based on the results of our simulation. Each column represents a different value of 
+								x<sub>out</sub> = r<sub>out</sub>/r<sub>in</sub>, with x<sub>out</sub> = 4 corresponding to our SPH simulation. There are several combinations of p, M<sub>d</sub>, and x<sub>out</sub> whereby the 
+								dust traffic jams may be detectable for ngVLA, SKA, and even with ALMA. 
+							</p>
+							<div class="image-container">
+        							<img src="images/syn_tele.jpg" alt="" class="responsive-image">
+  							</div>	
+							<p align="left"> In conclusion, dust traffic jams resulting from the differential precession of gas and dust in misaligned circumbinary disks will be a prime target for more extended wavelength observations.
+							</p>
+							<!-- <div class="image-container">
+								<iframe width="720" height="360" src="https://www.youtube.com/embed/MbSsW624-v4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<p>
+						
+							</p> -->
+						</div>
+
+
+					</section>
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+	</body>
+</html>
